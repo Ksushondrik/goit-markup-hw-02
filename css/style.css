@@ -1,3 +1,33 @@
 body {
-    font-family: "Roboto", normal;
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif, normal;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
 }
+
+h2 {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+}
+
+.title {
+    background-color: #2E2F42;
+    color: #fff;
+    text-align: center;
+}
+
+.advantages {
+    background-color: #fff;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.portfolio {
+    background-color: #fff;
+}
+
