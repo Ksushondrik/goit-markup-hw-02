@@ -1,11 +1,35 @@
 body {
-    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif, normal;
+    font-family: "Roboto", sans-serif, normal;
     color: #434455;
     background-color: #fff;
     line-height: 1.5;
 }
 
-h2 {
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo_b {
+    color: #2e2f42;
+}
+
+.link_nav {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+.link_nav:hover, .link_nav:focus {
+    color: #2e2f42;
+}
+
+.section_title {
     color: #2e2f42;
     text-align: center;
     font-size: 36px;
