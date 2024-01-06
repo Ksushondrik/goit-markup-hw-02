@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif, normal;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
     line-height: 1.5;
@@ -15,43 +15,105 @@ body {
     color: #4d5ae5;
 }
 
-.logo_b {
+.logo_a {
     color: #2e2f42;
 }
 
 .link_nav {
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2e2f42;
 }
 
 .link_nav:hover, .link_nav:focus {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
-.section_title {
-    color: #2e2f42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1111;
+.contacts {
+   font-style: normal; 
 }
 
-.title {
+.link_contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link_contacts:hover, .link_contacts:focus {
+    color: #404bbf;
+}
+
+.bloc_a {
     background-color: #2E2F42;
-    color: #fff;
     text-align: center;
+    
+}
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-.advantages {
-    background-color: #fff;
+.butt {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
 
-.team {
+.butt:hover, .butt:focus {
+    background-color: #404bbf;
+}
+
+.item_title {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.bloc_c {
     background-color: #f4f4fd;
 }
 
-.portfolio {
-    background-color: #fff;
+.bloc_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
+.item {
+    background-color: #ffffff;
+}
+
+.floor {
+    background-color: #2e2f42;
+}
+
+.logo_b {
+    color: #f4f4fd;
+}
+
+.logo_text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
